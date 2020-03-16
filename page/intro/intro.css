@@ -1,0 +1,9 @@
+@import url("./__title/intro__title.css");
+@import url("./__subtitle/intro__subtitle.css");
+@import url("./__main-text/intro__main-text.css");
+@import url("./__text/Intro__text.css");
+
+.intro {
+  width: 320px;
+  margin-top: 64px;
+}

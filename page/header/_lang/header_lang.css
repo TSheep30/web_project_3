@@ -1,0 +1,16 @@
+.header_lang {
+  text-decoration: none;
+  color: #ffffff;
+  width: 30px;
+  height: 18px;
+  font-size: 18px;
+  line-height: 17px;
+  font-weight: normal;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 16px;
+}
+
+.header_lang:first-of-type {
+  margin-left: 62px;
+}

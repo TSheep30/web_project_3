@@ -1,0 +1,5 @@
+.comments__container {
+  margin-top: 39px;
+  display: flex;
+  flex-direction: column;
+}

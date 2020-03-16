@@ -1,0 +1,22 @@
+@import url("./header/header.css");
+@import url("./lead/lead.css");
+@import url("./intro/intro.css");
+@import url("./photo-grid/photo-grid.css");
+@import url("./places/places.css");
+@import url("./video/video.css");
+@import url("./comments/comments.css");
+@import url("./cover/cover.css");
+@import url("./footer/footer.css");
+@font-face {
+  font-family: "Inter";
+  src: url("../Inter-3.12/Inter/Inter-Light.otf");
+}
+
+.page {
+  background-color: #2a2c2f;
+  width: 320px;
+  height: 11581px;
+  font-family: "Inter";
+}
+
+/* TODO: Font Family issues */

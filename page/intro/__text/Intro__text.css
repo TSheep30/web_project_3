@@ -1,0 +1,10 @@
+.intro__text {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 19px;
+  margin-left: 16px;
+}
+
+.intro__text:first-of-type {
+  margin-top: 48px;
+}

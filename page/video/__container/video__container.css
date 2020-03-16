@@ -1,0 +1,10 @@
+@import url("./_item/video__container_item.css");
+@import url("./_item/video__container_item-bg.css");
+
+.video__container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 24px 16px 0 16px;
+  padding: 0;
+}

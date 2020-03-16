@@ -1,0 +1,7 @@
+@import url("./_logo/header_logo.css");
+@import url("./_lang/header_lang.css");
+
+.header {
+  display: flex;
+  overflow: hidden;
+}

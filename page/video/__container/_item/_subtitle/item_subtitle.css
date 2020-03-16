@@ -1,0 +1,10 @@
+.item_subtitle {
+  position: absolute;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 15px;
+  left: 16px;
+  top: 160px;
+}
+
+/* TODO maybe create another tag for the second video to position the subtitle correctly in relation to the title */
