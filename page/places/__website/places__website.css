@@ -1,0 +1,19 @@
+@import url("./_url-heading/places__website_url-heading.css");
+@import url("./_url/places__website_url.css");
+
+.places__website {
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .places__website {
+    display: none;
+  }
+}
+
+@media (min-width: 666px) {
+  .places__website {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+}

@@ -1,9 +1,10 @@
 .item_title {
+  font-family: Inter-ExtraBold;
   position: absolute;
-  font-size: 24px;
-  line-height: 26px;
+  font-size: 1.5rem;
+  line-height: 1.1;
   color: #ffffff;
   left: 16px;
-  top: 90px;
+  top: 86px;
   z-index: 1;
 }

@@ -1,9 +1,18 @@
 .footer__copyright {
+  font-family: Inter-Light;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.9rem;
+  line-height: 1.2;
   color: #ffffff;
   margin-left: 16px;
   margin-bottom: 22px;
   margin-top: 48px;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .footer__copyright {
+    text-align: right;
+    margin-top: 10px;
+  }
 }

@@ -1,20 +1,11 @@
-# Project 3: From Portland to Portland
+# Project 3: Responsive Webpages
 
-### Overview
-* Intro
-* Figma
-* Images
+### Skills Used
 
-**Intro**
+- Flex boxes
+- Grids
+- Media Queries
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+**About the Page**
 
-**Figma**
-
-* [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+This is a project about traveling across the US. The is responsive to the screen size of the device it is viewed on.

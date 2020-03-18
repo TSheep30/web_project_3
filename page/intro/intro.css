@@ -4,6 +4,9 @@
 @import url("./__text/Intro__text.css");
 
 .intro {
-  width: 320px;
-  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 767px;
+  margin: 64px auto;
 }

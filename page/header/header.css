@@ -1,7 +1,10 @@
-@import url("./_logo/header_logo.css");
-@import url("./_lang/header_lang.css");
+@import url("./__logo/header__logo.css");
+@import url("./__lang/header__lang.css");
+@import url("./__container/header__container.css");
 
 .header {
   display: flex;
-  overflow: hidden;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
 }

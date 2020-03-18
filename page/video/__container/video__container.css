@@ -3,8 +3,11 @@
 
 .video__container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   list-style: none;
   margin: 24px 16px 0 16px;
   padding: 0;
+  justify-content: center;
 }
+
+/* TODO need to put all images inside link tag and overlay over image */

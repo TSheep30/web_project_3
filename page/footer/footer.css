@@ -4,5 +4,29 @@
 .footer {
   display: flex;
   flex-direction: column;
-  margin-top: 64px;
+  justify-content: center;
+  margin-top: auto;
+  width: 320px;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    min-width: 320px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: grid;
+    margin: auto;
+    grid-gap: 20px;
+    grid-template-columns: 120px 120px 100px 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    max-width: 1184px;
+    grid-template-columns: 130px 130px 130px 720px;
+  }
 }

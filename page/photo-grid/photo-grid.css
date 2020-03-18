@@ -2,6 +2,7 @@
 
 .photo-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fill, 288px);
   justify-content: center;
   margin-top: 71px;
   margin-left: auto;

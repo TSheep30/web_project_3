@@ -1,9 +1,9 @@
 .video__content-title {
+  font-family: Inter-ExtraBold;
   width: 288px;
-  height: 67px;
-  font-size: 32px;
-  line-height: 35px;
+  font-size: 2.1rem;
+  line-height: 1.1;
   text-align: center;
   color: #ffffff;
-  margin: 63px 16px 0 16px;
+  margin: 63px auto 0 auto;
 }

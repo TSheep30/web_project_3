@@ -1,7 +1,8 @@
 .intro__text {
+  font-family: Inter;
   color: #ffffff;
-  font-size: 12px;
-  line-height: 19px;
+  font-size: 0.8rem;
+  line-height: 0.6;
   margin-left: 16px;
 }
 

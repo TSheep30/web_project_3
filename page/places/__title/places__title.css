@@ -1,6 +1,18 @@
 .places__title {
-  font-size: 32px;
-  line-height: 35px;
+  font-family: Inter-ExtraBold;
+  font-size: 2.2rem;
+  line-height: 2;
   color: #ffffff;
-  margin: 64px 16px 32px 16px;
 }
+
+@media (max-width: 767px) {
+  .places__title {
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 666px) {
+  .places__title {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }

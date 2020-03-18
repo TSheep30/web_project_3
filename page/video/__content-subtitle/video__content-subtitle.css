@@ -1,7 +1,9 @@
 .video__content-subtitle {
-  font-size: 16px;
-  line-height: 23px;
+  font-family: Inter-Light;
+  font-size: 1rem;
+  line-height: 1.5rem;
   text-align: center;
   color: #ffffff;
-  margin: 25px 16px 0 16px;
+  margin: 25px auto 0 auto;
+  max-width: 384px;
 }

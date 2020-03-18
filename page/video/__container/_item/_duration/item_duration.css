@@ -1,5 +1,9 @@
 .item_duration {
+  font-family: Inter-Light;
   position: absolute;
+  font-size: 0.9rem;
+  line-height: 0.9;
+  letter-spacing: 0.3rem;
   z-index: 1;
   color: #ffffff;
   top: 75px;

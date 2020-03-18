@@ -1,0 +1,17 @@
+.comment__author {
+  font-family: Inter-ExtraBold;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 0;
+  width: 300px;
+}
+
+@media (min-width: 1024px) {
+  .comment__author {
+    order: 3;
+  }
+}
