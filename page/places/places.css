@@ -4,7 +4,7 @@
 @import url("./__website/places__website.css");
 
 .places {
-  margin: 75px auto 0 auto;
+  margin: 64px 0 0 0;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, 320px);
@@ -12,9 +12,29 @@
   max-width: 767px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 375px) {
   .places {
-    width: 320px;
-    margin: auto;
+    grid-template-columns: repeat(auto-fit, 375px);
+  }
+}
+
+@media (min-width: 768px) {
+  .places {
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 340px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+    grid-template-columns: repeat(auto-fit, 440px);
+    margin: 102px auto 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    grid-template-columns: repeat(auto-fit, 460px);
+    margin: 72px auto 0;
   }
 }

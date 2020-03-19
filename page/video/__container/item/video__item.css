@@ -1,0 +1,37 @@
+.video__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 288px;
+  height: 182px;
+  margin-bottom: 8px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .video__item {
+    margin-left: 10px;
+    width: 352px;
+    height: 200px;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video__item {
+    margin-left: 10px;
+    width: 456px;
+    height: 288px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .video__item {
+    margin-left: 10px;
+    width: 583px;
+    height: 323px;
+  }
+}

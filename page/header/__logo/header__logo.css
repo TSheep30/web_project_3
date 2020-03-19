@@ -1,5 +1,11 @@
 .header__logo {
-  min-width: 156px;
-  min-height: 37px;
-  margin-top: 20px;
+  width: 156px;
+  height: 37px;
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+    width: 196px;
+    height: 46px;
+  }
 }

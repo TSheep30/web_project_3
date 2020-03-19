@@ -1,13 +1,16 @@
-@import url("./_item/video__container_item.css");
-@import url("./_item/video__container_item-bg.css");
+@import url("./item/video__item.css");
+@import url("./_image/video__container_image.css");
+@import url("./_button/video__container_button.css");
+@import url("./_duration/video__container_duration.css");
+@import url("./_title/video__container_title.css");
+@import url("./_author/video__container_button.css");
 
 .video__container {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
-  margin: 24px 16px 0 16px;
-  padding: 0;
-  justify-content: center;
+  margin: 24px auto 0;
 }
 
-/* TODO need to put all images inside link tag and overlay over image */
+.video__container:first-of-type {
+  margin-top: 24px;
+}

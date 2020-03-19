@@ -1,0 +1,11 @@
+.video__container_title {
+  position: absolute;
+  color: #ffffff;
+  left: 16px;
+  top: 96px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 26px;
+}

@@ -1,7 +1,7 @@
 .places__paragraph {
-  font-family: Inter-Light;
-  font-size: 1.025rem;
-  line-height: 1.8;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 27px;
   color: #ffffff;
   margin: 0;
 }
@@ -9,6 +9,8 @@
 
 @media (max-width: 767px) {
   .places__paragraph {
+    font-size: 18px;
+    line-height: 30px;
     margin-top: 24px;
     margin-left: 16px;
     width: 300px;

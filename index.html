@@ -10,10 +10,10 @@
     <body class="page">
         <header class="header">
             <img src="images/logo1.svg" class="header__logo" alt="logo">
-            <div class="header__container">
-                <a href="#" class="header__lang">En</a>
-                <a href="#" class="header__lang">Es</a>
-            </div>
+            <nav class="nav">
+                <a href="#" class="nav__link nav__link_active link">En</a>
+                <a href="#" class="nav__link link">Es</a>
+            </nav>
             
         </header>
         <section class="lead">
@@ -105,28 +105,31 @@
         <section class="video">
             <h2 class="video__content-title">Cycling &&nbsp;Spouting</h2>
             <p class="video__content-subtitle">The largest bike-touring event in the world and the most famous geyser of Yellowstone National Park. </p>
-            <ul class="video__container">
-                <li class="video__container_item">
-                    <img src="images/Imagecycling.png" class="video__container_item-bg" alt="cycling">
-                    <img src="images/icon_play.svg" class="item_icon-play">
-                    <p class="item_duration">5:27</p>
-                    <p class="item_title">RAGBRAI, Iowa</p>
-                    <p class="item_subtitle">Author: Ryan Van Duzer</p>
-                </li>
-                <li class="video__container_item">
-                    <img src="images/Imagegeyser.png" class="video__container_item-bg" alt="geyser">
-                    <img src="images/icon_play.svg" class="item_icon-play">
-                    <p class="item_duration">2:36</p>
-                    <p class="item_title">Old Faithful Geyser, Wyoming</p>
-                    <p class="item_subtitle">Author: David Ellis</p> 
-                </li>
-            </ul>
+            <div class="video__container">
+            <div class="video__item">
+                <img class="video__container_image" src="images/Imagecycling.png" alt="cycling">
+                <img class="video__container_button" src="./images/icon_play.svg" alt="icon play">
+                <p class="video__container_duration">5: 27</p>
+                <H3 class="video__container_title">RAGBRAI, Iowa</H3>
+                <p class="video__container_author">Author: Ryan Van Duzer</p>
+                </div>
+                <div class="video__item">
+                    <img class="video__container_image" src="images/Imagegeyser.png" alt="geyser">
+                    <img class="video__container_button" src="./images/icon_play.svg" alt="icon play">
+                    <p class="video__container_duration">2: 36</p>
+                    <H3 class="video__container_title">Old Faithful Geyser, Wyoming</H3>
+                    <p class="video__container_author">Author: David Ellis</p>
+                    </div>
+                    </div>
+            
+                
+            </div>
         </section>
         <section class="comments">
             <h2 class="comments__title">Three influential people</h2>
             <p class="comments__subtitle">These 3 Americans have each impacted the world in very individual ways</p>
             <div class="comments__container">
-                <div class="comment"><img src="images/beatrice-morrow-cannady.jpg" class="comment__image" alt="Beatrice Morrow Canndady">
+                <div class="comment">img src="images/beatrice-morrow-cannady.jpg" class="comment__image" alt="Beatrice Morrow Canndady">
                     <h3 class="comment__author">Beatrice Morrow Cannady <br> Portland, Oregon</h3>
                     <p class="comment__quote">It is the duty of the Negro woman to see that in the home there are histories of her race written by Negro historians.</p>
                 </div>

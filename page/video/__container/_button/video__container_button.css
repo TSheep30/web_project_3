@@ -1,6 +1,5 @@
-.item_icon-play {
+.video__container_button {
   position: absolute;
   left: 16px;
   top: 16px;
-  z-index: 1;
 }

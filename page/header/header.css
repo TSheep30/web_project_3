@@ -1,10 +1,9 @@
 @import url("./__logo/header__logo.css");
-@import url("./__lang/header__lang.css");
-@import url("./__container/header__container.css");
+@import url("./nav/nav.css");
 
 .header {
   display: flex;
-  width: 90%;
-  margin: auto;
+  align-items: center;
   justify-content: space-between;
+  min-height: 36px;
 }

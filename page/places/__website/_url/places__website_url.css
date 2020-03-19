@@ -1,6 +1,9 @@
 .places__website_url {
-  font-family: inter-light;
-  color: white;
-  font-size: 1rem;
-  margin-top: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #ffffff;
 }

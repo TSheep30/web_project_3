@@ -1,6 +1,5 @@
 .places__image {
-  width: 320px;
-  height: 320px;
+  width: 100%;
 }
 
 @media (min-width: 666px) {

@@ -1,7 +1,13 @@
 .lead__image {
-  height: 25vh;
-  width: 767px;
+  width: 122vw;
   align-self: center;
+  margin-top: 35px;
 }
 
-/* use calc function here */
+@media (min-width: 1000px) {
+  .lead__image {
+    width: calc(100% - 30px);
+    max-width: 984px;
+    margin-top: 65px;
+  }
+}

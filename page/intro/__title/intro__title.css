@@ -1,9 +1,17 @@
 .intro__title {
-  font-family: Inter-ExtraBold;
-  font-size: 2rem;
-  line-height: 1.1;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
   color: #ffffff;
-  margin-left: 16px;
   min-width: 320px;
-  max-width: 450px;
+}
+
+@media (min-width: 768px) {
+  .intro__title {
+    font-size: 54px;
+    line-height: 59px;
+    width: 740px;
+  }
 }

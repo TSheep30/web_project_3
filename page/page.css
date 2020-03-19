@@ -1,4 +1,5 @@
 @import url("./normalize.css");
+@import url("./fonts/fonts.css");
 @import url("./header/header.css");
 @import url("./lead/lead.css");
 @import url("./intro/intro.css");
@@ -9,44 +10,30 @@
 @import url("./cover/cover.css");
 @import url("./footer/footer.css");
 
-@font-face {
-  src: url("../Inter-3.12/Inter/Inter-Regular.otf");
-  font-family: "Inter";
-}
-
-@font-face {
-  src: url("../Inter-3.12/Inter/Inter-Bold.otf");
-  font-family: "Inter-Bold";
-  font-weight: bold;
-}
-
-@font-face {
-  src: url("../Inter-3.12/Inter/Inter-ExtraBold.otf");
-  font-family: "Inter-ExtraBold";
-  font-weight: 900;
-}
-
-@font-face {
-  src: url("../Inter-3.12/Inter/Inter-Italic.otf");
-  font-family: "Inter-Italic";
-  font-style: italic;
-}
-
-@font-face {
-  src: url("../Inter-3.12/Inter/Inter-Light.otf");
-  font-family: "Inter-Light";
-}
-
-@font-face {
-  src: url("../Inter-3.12/Inter/Inter-Thin.otf");
-  font-family: "Inter-Thin";
-}
-
 .page {
   background-color: #2a2c2f;
   min-width: 320px;
-  max-width: 1440px;
+  max-width: 1445px;
   font-family: "Inter";
   margin: 0;
-  padding: 0;
+  padding: 21px 16px 22px;
+  font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding: 35px 24px 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding: 36px 48px 48px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .page {
+    padding: 33px 128px 128px;
+  }
 }
