@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   width: 288px;
   height: 182px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -14,16 +14,17 @@
 @media (min-width: 768px) {
   .video__item {
     margin-left: 10px;
-    width: 352px;
+    width: 325px;
     height: 200px;
     flex-wrap: nowrap;
+    margin-bottom: 0;
   }
 }
 
 @media (min-width: 1024px) {
   .video__item {
-    margin-left: 10px;
-    width: 456px;
+    margin-left: calc(auto - 10px);
+    width: 454px;
     height: 288px;
   }
 }
@@ -31,7 +32,7 @@
 @media (min-width: 1280px) {
   .video__item {
     margin-left: 10px;
-    width: 583px;
+    width: 582px;
     height: 323px;
   }
 }

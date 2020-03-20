@@ -1,9 +1,10 @@
 @import url("./item/video__item.css");
 @import url("./_image/video__container_image.css");
 @import url("./_button/video__container_button.css");
+@import url("./_button/video__container_icon.css");
 @import url("./_duration/video__container_duration.css");
 @import url("./_title/video__container_title.css");
-@import url("./_author/video__container_button.css");
+@import url("./_author/video__container_author.css");
 
 .video__container {
   display: flex;

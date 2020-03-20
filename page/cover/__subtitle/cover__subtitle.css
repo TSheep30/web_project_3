@@ -1,8 +1,9 @@
 .cover__subtitle {
   font-family: Inter;
-  top: 143px;
-  font-size: 1rem;
-  line-height: 1.2;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
   text-align: center;
   color: #ffffff;
   margin: 40px auto;
@@ -11,7 +12,9 @@
 
 @media (min-width: 768px) {
   .cover__subtitle {
-    margin: 110px auto;
+    margin: 70px auto;
+    font-size: 18px;
+    line-height: 26px;
   }
 }
 

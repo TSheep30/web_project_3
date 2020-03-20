@@ -9,6 +9,7 @@
 @import url("./comments/comments.css");
 @import url("./cover/cover.css");
 @import url("./footer/footer.css");
+@import url("./link/link.css");
 
 .page {
   background-color: #2a2c2f;

@@ -1,5 +1,6 @@
 .video__container_button {
   position: absolute;
-  left: 16px;
-  top: 16px;
+  padding-top: 16px;
+  padding-left: 16px;
+  text-decoration: none;
 }

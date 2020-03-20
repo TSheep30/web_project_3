@@ -1,9 +1,10 @@
 .comment__author {
-  font-family: Inter-ExtraBold;
+  font-family: Inter;
   color: #ffffff;
+  font-style: normal;
   font-weight: 900;
-  font-size: 0.9rem;
-  line-height: 1.8;
+  font-size: 14px;
+  line-height: 22px;
   text-align: center;
   margin-top: 18px;
   margin-bottom: 0;
