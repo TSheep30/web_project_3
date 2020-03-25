@@ -1,0 +1,40 @@
+.comment__quote {
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  margin-top: 24px;
+  margin-left: 16px;
+  margin-bottom: 0;
+  width: 300px;
+}
+
+@media (min-width: 375px) {
+  .comment__quote {
+    width: 345px;
+  }
+}
+
+@media (min-width: 768px) {
+  .comment__quote {
+    width: 360px;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .comment__quote {
+    order: 2;
+    width: 280px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .comment__quote {
+    width: 382px;
+  }
+}

@@ -1,0 +1,27 @@
+@import url("./__image/comment__image.css");
+@import url("./__author/comment__author.css");
+@import url("./__quote/comment__quote.css");
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+}
+
+@media (min-width: 375px) {
+  .comment {
+    margin-top: 48px;
+  }
+}
+
+@media (min-width: 768px) {
+  .comment {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .comment {
+    margin-top: 65px;
+  }
+}

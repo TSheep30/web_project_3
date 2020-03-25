@@ -1,0 +1,27 @@
+@import url("./list/list.css");
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    width: 928px;
+    margin: 126px auto 0 auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer {
+    margin-top: 160px;
+    width: 1188px;
+  }
+}

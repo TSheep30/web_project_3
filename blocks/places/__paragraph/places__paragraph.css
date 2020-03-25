@@ -1,0 +1,43 @@
+.places__paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #ffffff;
+  width: 288px;
+  margin-top: 0;
+  margin-left: 16px;
+  margin-bottom: 37px;
+}
+
+.places__paragraph:last-of-type {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 375px) {
+  .places__paragraph {
+    width: 344px;
+  }
+}
+
+@media (min-width: 768px) {
+  .places__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 28px;
+    width: 352px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places__paragraph {
+    width: 456px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places__paragraph {
+    width: 484px;
+  }
+}

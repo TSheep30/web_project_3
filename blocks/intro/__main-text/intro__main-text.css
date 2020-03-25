@@ -1,0 +1,39 @@
+.intro__main-text {
+  font-family: Inter;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 35px;
+  margin-left: 16px;
+  margin-bottom: 0;
+  width: 288px;
+}
+
+@media (min-width: 375px) {
+  .intro__main-text {
+    width: 341px;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro__main-text {
+    width: 720px;
+    margin-left: 24px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro__main-text {
+    width: 680px;
+    margin-left: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro__main-text {
+    margin-left: 20px;
+  }
+}

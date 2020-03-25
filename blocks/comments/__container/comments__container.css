@@ -1,0 +1,36 @@
+@import url("./comment/comment.css");
+
+.comments__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: auto;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .comments__container {
+    width: 320px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .comments__container {
+    width: 928px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+@media (min-width: 1280px) {
+  .comments__container {
+    justify-content: space-evenly;
+    width: 1200px;
+}
+
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .comments__container {
+    flex-wrap: wrap;
+  }
+}

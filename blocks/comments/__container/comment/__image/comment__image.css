@@ -1,0 +1,19 @@
+.comment__image {
+  border-radius: 45%;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 0 auto;
+}
+
+@media (min-width: 375px) {
+  .comment__image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .comment__image {
+    margin: 0;
+  }
+}

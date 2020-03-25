@@ -1,0 +1,35 @@
+@import url("./__title/places__title.css");
+@import url("./__url-heading/places__url-heading.css");
+@import url("./__website-url/places__website-url.css");
+@import url("./__image/places__image.css");
+@import url("./__paragraph/places__paragraph.css");
+@import url("./two-columns/two-columns.css");
+
+.places {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .places {
+    margin-left: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+    margin-left: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    margin-left: 160px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .places {
+    margin-left: 240px;
+  }
+}

@@ -1,0 +1,28 @@
+.lead__image {
+  width: 382px;
+  align-self: center;
+  margin-top: 35px;
+}
+
+@media (min-width: 768px) {
+  .lead__image {
+    width: 768px;
+    height: 442px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__image {
+    width: calc(100% - 96px);
+    height: 554px;
+    margin: 65px 0 0 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__image {
+    width: 984px;
+    height: 565px;
+    margin: 67px auto 0 auto;
+  }
+}

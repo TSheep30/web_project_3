@@ -1,0 +1,5 @@
+@media (min-width: 375px) {
+  .nav__lang_active {
+    text-decoration: underline;
+  }
+}

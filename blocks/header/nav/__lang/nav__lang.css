@@ -1,0 +1,21 @@
+.nav__lang {
+  font-family: Inter;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 17px;
+  font-style: normal;
+  margin-left: 16px;
+  opacity: 1;
+}
+
+.nav__lang:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  .nav__lang {
+    font-size: 24px;
+    line-height: 23px;
+  }
+}

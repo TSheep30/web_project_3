@@ -1,0 +1,17 @@
+.two-columns__url {
+  margin-top: 64px;
+  margin-left: 28px;
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .two-columns__url {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .two-columns__url {
+    margin-top: 80px;
+  }
+}

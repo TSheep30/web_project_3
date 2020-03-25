@@ -1,0 +1,17 @@
+@import url("./__title/intro__title.css");
+@import url("./__subtitle/intro__subtitle.css");
+@import url("./__main-text/intro__main-text.css");
+@import url("./numbers/numbers.css");
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 1024px;
+  margin: 64px auto 0 auto;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    margin-top: 80px;
+}

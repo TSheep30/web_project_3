@@ -1,9 +1,0 @@
-@import url("./__image/comment__image.css");
-@import url("./__author/comment__author.css");
-@import url("./__quote/comment__quote.css");
-
-.comment {
-  display: flex;
-  flex-direction: column;
-  margin-top: 45px;
-}

@@ -1,9 +1,0 @@
-@import url("./__logo/header__logo.css");
-@import url("./nav/nav.css");
-
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 36px;
-}
