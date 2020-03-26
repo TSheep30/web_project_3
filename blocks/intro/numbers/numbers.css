@@ -1,4 +1,5 @@
 @import url("./__text/numbers__text.css");
+@import url("./__text-bold/numbers__text-bold.css");
 
 .numbers {
   list-style: none;
