@@ -1,4 +1,5 @@
-@import url("./list/list.css");
+@import url("./__list/footer__list.css");
+@import url("./__copyright/footer__copyright.css");
 
 .footer {
   display: flex;
@@ -6,22 +7,29 @@
   justify-content: center;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .footer {
-    width: 768px;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 102px 24px 24px 24px;
   }
 }
 
 @media (min-width: 1024px) {
   .footer {
-    width: 928px;
-    margin: 126px auto 0 auto;
+    margin: 126px 48px 50px 89px;
   }
 }
 
 @media (min-width: 1280px) {
   .footer {
-    margin-top: 160px;
-    width: 1188px;
+    margin: 160px 48px 48px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    margin: 170px 128px 48px;
   }
 }

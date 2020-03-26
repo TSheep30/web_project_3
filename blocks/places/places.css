@@ -1,9 +1,7 @@
-@import url("./__title/places__title.css");
-@import url("./__url-heading/places__url-heading.css");
-@import url("./__website-url/places__website-url.css");
+@import url("./__title/place__title.css");
 @import url("./__image/places__image.css");
 @import url("./__paragraph/places__paragraph.css");
-@import url("./two-columns/two-columns.css");
+@import url("./place/place.css");
 
 .places {
   display: flex;

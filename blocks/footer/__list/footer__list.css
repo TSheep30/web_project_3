@@ -1,0 +1,18 @@
+@import url("./__item/list__item.css");
+@import url("./__links/list__link.css");
+@import url("./__copyright/list__copyright.css");
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .footer__list {
+    flex-direction: row;
+    align-items: baseline;
+  }
+}

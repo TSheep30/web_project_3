@@ -1,0 +1,6 @@
+@import url("./video/video.css");
+
+.videos {
+  display: flex;
+  flex-direction: column;
+}

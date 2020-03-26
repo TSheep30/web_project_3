@@ -6,6 +6,7 @@
   justify-content: center;
   margin-top: auto;
   list-style: none;
+  padding: 0;
 }
 
 @media (max-width: 768px) {

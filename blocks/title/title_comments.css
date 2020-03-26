@@ -1,0 +1,24 @@
+.title_comments {
+  margin: 68px auto 0 auto;
+  font-size: 32px;
+  line-height: 35px;
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .title_comments {
+    margin-top: 116px;
+    width: 600px;
+    font-size: 42px;
+    line-height: 45px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title_comments {
+    margin-top: 116px;
+    width: 720px;
+    font-size: 72px;
+    line-height: 78px;
+  }
+}

@@ -1,0 +1,11 @@
+@import url("./subtitle_videos.css");
+@import url("./subtitle_comments.css");
+@import url("./subtitle_cover.css");
+
+.subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+}

@@ -1,0 +1,12 @@
+.video__icon {
+  width: 41px;
+  margin-bottom: 0;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+@media (min-width: 1024px) {
+  .video__icon {
+    margin-top: 30px;
+  }
+}

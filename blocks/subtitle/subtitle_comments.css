@@ -1,0 +1,35 @@
+.subtitle_comments {
+  font-size: 16px;
+  line-height: 23px;
+  width: 320px;
+  margin: 27px auto 0 auto;
+}
+
+@media (min-width: 375px) {
+  .subtitle_comments {
+    margin-top: 16px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .subtitle_comments {
+    font-size: 24px;
+    line-height: 35px;
+    width: 570px;
+    margin-top: 62px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subtitle_comments {
+    font-size: 24px;
+    line-height: 35px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .subtitle_comments {
+    width: 595px;
+  }
+}

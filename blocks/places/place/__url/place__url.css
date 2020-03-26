@@ -1,0 +1,17 @@
+.place__url {
+  margin-top: 64px;
+  margin-left: 28px;
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .place__url {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .place__url {
+    margin-top: 80px;
+  }
+}

@@ -1,0 +1,27 @@
+.subtitle_videos {
+  font-size: 16px;
+  line-height: 23px;
+  margin: 25px auto 0 auto;
+}
+
+@media (min-width: 375px) {
+  .subtitle_videos {
+    width: 350px;
+    margin-top: 31px;
+  }
+}
+
+@media (min-width: 768px) {
+  .subtitle_videos {
+    width: 620px;
+    font-size: 24px;
+    line-height: 35px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subtitle_videos {
+    margin-top: 37px;
+    width: 640px;
+  }
+}

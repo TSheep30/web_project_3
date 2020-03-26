@@ -1,0 +1,35 @@
+.video__button {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  width: 288px;
+  height: 182px;
+}
+
+.video__button:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 375px) {
+  .video__button {
+    width: 343px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video__button {
+    width: 456px;
+    height: 288px;
+    margin-top: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .video__button {
+    width: 583px;
+    height: 323px;
+    margin-top: 48px;
+  }
+}

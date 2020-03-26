@@ -1,9 +1,0 @@
-.two-columns__title {
-  margin-top: 64px;
-}
-
-@media (min-width: 768px) {
-  .two-columns__title {
-    margin-top: 80px;
-  }
-}

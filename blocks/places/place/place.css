@@ -1,0 +1,18 @@
+@import url("./__title/place__title.css");
+@import url("./__url/place__url.css");
+@import url("./__paragraphs/place__paragraphs.css");
+@import url("./__url-heading/place__url-heading.css");
+@import url("./__website-url/place__website-url.css");
+@import url("./__paragraph/place__paragraph.css");
+@import url("./__image/place__image.css");
+
+.place {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .place {
+    flex-wrap: nowrap;
+  }
+}

@@ -1,0 +1,27 @@
+.title_video {
+  margin: 47px auto 0 auto;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+@media (min-width: 375px) {
+  .title_video {
+    margin-top: 73px;
+  }
+}
+
+@media (min-width: 768px) {
+  .title_video {
+    margin-top: 110px;
+    font-size: 42px;
+    line-height: 45px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title_video {
+    margin-top: 100px;
+    font-size: 72px;
+    line-height: 78px;
+  }
+}
