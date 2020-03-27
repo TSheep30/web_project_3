@@ -1,4 +1,6 @@
 @import url("./video/video.css");
+@import url("./__title/videos__title.css");
+@import url("./__subtitle/videos__subtitle.css");
 
 .videos {
   display: flex;

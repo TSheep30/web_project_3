@@ -1,7 +1,3 @@
-@import url("./__item/list__item.css");
-@import url("./__links/list__link.css");
-@import url("./__copyright/list__copyright.css");
-
 .footer__list {
   display: flex;
   flex-direction: column;

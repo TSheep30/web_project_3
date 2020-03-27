@@ -1,5 +1,7 @@
 @import url("./__subtitle/comments__subtitle.css");
 @import url("./__container/comments__container.css");
+@import url("./__title/comments__title.css");
+@import url("./__subtitle/comments__subtitle.css");
 
 .comments {
   display: flex;

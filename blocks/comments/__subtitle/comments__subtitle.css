@@ -1,19 +1,24 @@
-.subtitle_comments {
+.comments__subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 23px;
+  text-align: center;
+  color: #ffffff;
   width: 320px;
   margin: 27px auto 0 auto;
 }
 
 @media (min-width: 375px) {
-  .subtitle_comments {
+  .comments__subtitle {
     margin-top: 16px;
     width: 350px;
   }
 }
 
 @media (min-width: 768px) {
-  .subtitle_comments {
+  .comments__subtitle {
     font-size: 24px;
     line-height: 35px;
     width: 570px;
@@ -22,14 +27,14 @@
 }
 
 @media (min-width: 1024px) {
-  .subtitle_comments {
+  .comments__subtitle {
     font-size: 24px;
     line-height: 35px;
   }
 }
 
-@media (min-width: 1280px) {
-  .subtitle_comments {
+@media (min-width: 1024px) {
+  .comments__subtitle {
     width: 595px;
   }
 }
